@@ -1,6 +1,6 @@
 DELETE FROM Encontros 
 
-Insert into Encontros (Data) VALUES (GETUTCDATE())
+Insert into Encontros (Data) VALUES ('19-06-2021'),('26-06-2021')
 
 DELETE FROM LivroAtual 
 

@@ -30,7 +30,7 @@ go
 if not exists (select * from sysobjects where name='Encontros' and xtype='U')
 	create table Encontros (
 		Numero int IDENTITY(1,1),
-		Data Datetime not null,
+		Data varchar(10) not null,
        	Primary key (Numero)
 	)
 	
